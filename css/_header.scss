@@ -1,0 +1,8 @@
+
+header{
+    @include flexCenter(column);
+    background-color: lightblue;
+    button{
+        @include button();
+    }
+}

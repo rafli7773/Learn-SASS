@@ -1,0 +1,14 @@
+@import './variabels';
+@import './header';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    @include flexCenter(row);
+    button{
+        @include button();
+    }
+}
